@@ -1,0 +1,399 @@
+@media (max-width: 1100px) {
+    .hero-section .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .envato-section {
+        padding: 20px 10px;
+        justify-content: center !important;
+        gap: 10px;
+    }
+
+    .product-features {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    .modules-features {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+@media (max-width: 989px) {
+    .hero-section .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-section .heroContent {
+        padding-top: 170px ;
+        padding-bottom: 50px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: auto !important;
+    }
+
+    .hero-section .column-one {
+        width: 100%;
+        order: 2;
+    }
+
+    .our-project-content {
+        margin-top: 25px;
+    }
+
+    .hero-section .column-two {
+        width: 100%;
+        order: 1;
+    }
+
+    .hero-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .footer-section .footer-link-text .item {
+        font-weight: 400;
+        gap: 2px;
+    }
+
+    .envato-img img {
+        width: 100px;
+    }
+
+    .envato-customer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .hover-button {
+        margin: 6px auto;
+    }
+
+    .product-features {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .modules-features {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .container {
+        overflow-x: auto;
+    }
+
+    .appIconbox {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .ChiSiamo-Section .column-one {
+        width: 100%;
+        order: 2;
+    }
+    .ChiSiamo-Section .column-two {
+        width: 100%;
+        order: 1;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-section .hero-text h3 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #0F172A;
+        cursor: pointer;
+    }
+    .hero-section .hero-text h4 {
+        margin-bottom: 12px;
+        font-size: 18px;
+        color: var(--theme-color);
+    }
+    .vat-section h4 {
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .support-section {
+        padding: 30px 0;
+    }
+    .support-section h5 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    .ChiSiamo-Section {
+        background: #E0F8E2;
+        padding: 0px 0px;
+    }
+    .vat-section h6 {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 15px 0;
+        text-align: center;
+    }
+    .vat-section p {
+        font-size: 12px;
+        line-height: 23px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+    .services-section .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .services-section {
+        padding: 30px  0;
+        background-color: #94E19E;
+    }
+    .wcu-section .wcuImage{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .wcu-section {
+        padding: 10px 0px;
+        padding-bottom: 30px;
+    }
+    .aroLine-1{
+        display: none;
+    }
+    .hdtw-section {
+        background-color: #FEF2F2;
+        padding: 20px 0px;
+    }
+    .hdtw-cards {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px 0;
+        background-color: #FEE2E3;
+        flex: 1 1 0;
+    }
+    .footer-input{
+        display: flex;
+        justify-content: center;
+    }
+    .faq-image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .faq-section {
+        padding: 40px 0px;
+    }
+    .contact-section {
+        padding: 30px 0px;
+    }
+
+
+    .footerApp,
+    .socalImage{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .appsIcon img{
+        width: 90px;
+    }
+   .contattaciBtn{
+       display: flex;
+       justify-content: center;
+       margin: 20px 0;
+   }
+    .hero-section .hero-text p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .hero-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .contact-section .ContactItem{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        border: none;
+    }
+
+    .footer-section {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer-section .socal-link {
+        margin: auto !important;
+    }
+
+    .footer-section .addressContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section .footer-link-text .item {
+        justify-content: center;
+    }
+
+    .footer-section .footer-link-text .item i {
+        display: none !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: none;
+    }
+
+    .app-features {
+        padding: 0 0 0 0 !important;
+    }
+
+    .contact-section .address-part {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .contact-section .address-part i {
+        font-size: 50px;
+    }
+
+    .contact-section .address-part h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+    }
+
+    .envato-section {
+        display: none;
+    }
+
+    .normal-price {
+        padding: 20px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .heroImg {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .contact-section .address-part i {
+        font-size: 42px;
+    }
+
+    .container {
+        overflow-x: hidden !important;
+    }
+
+    .hero-section .hero-text h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .portfilio-section .portfolo-title {
+        font-size: 24px;
+    }
+
+    .contact-section .contact-title {
+        font-size: 24px;
+    }
+
+    .blog-text {
+        font-size: 24px;
+    }
+
+    .price-section .price-heding-content h3 {
+        font-size: 30px;
+    }
+
+    .price-section h2 {
+        font-size: 24px;
+    }
+
+    .our-project-content .section-text h2 {
+        font-size: 24px;
+    }
+
+    .navbar-toggler {
+        padding: 5px 8px;
+        font-size: 18px;
+    }
+
+    .contact-section .address-part i {
+        font-size: 30px;
+    }
+
+    .contact-section .address-part h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+    }
+
+    .product-features {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .modules-features {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    /* .navbar-brand img{
+        width: 40px !important;
+    } */
+    .app-features-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .contact-section .content-item {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .container {
+        overflow-x: hidden !important;
+    }
+
+    .navbar-brand img {
+        width: 140px !important;
+    }
+
+    .navbar-toggler {
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+
+    .contact-section .content-item {
+        width: 100%;
+    }
+
+}
